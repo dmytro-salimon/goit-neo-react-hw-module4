@@ -1,0 +1,26 @@
+.gallery {
+  padding: 20px;
+  column-width: 300px;
+  column-gap: 15px;
+}
+
+.galleryItem {
+  break-inside: avoid;
+  margin-bottom: 15px;
+  border: 1px solid #1a1a1a;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: light) {
+  .galleryItem {
+    border: 1px solid #f4f4f4;
+  }
+}
+
+.galleryItem img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

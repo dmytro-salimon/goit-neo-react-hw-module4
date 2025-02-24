@@ -1,0 +1,20 @@
+.searchForm {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.input {
+  max-width: 280px;
+  background-color: #1a1a1a;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+  .input {
+    background-color: #f4f4f4;
+  }
+}
